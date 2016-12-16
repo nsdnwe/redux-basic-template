@@ -24,9 +24,10 @@ export default class App extends React.Component {
   }
 
   render() {
-    const mappedBooks = this.props.books.map(z => <Book key={z.id} name={z.author} />)
+    const mappedBooks = this.props.books.bookList.map(z => <Book key={z.id} name={z.author} />)
     return (
       <div>
+        {this.props.books.fetched? <span></span> : <span>Fetching books...</span>}
         {mappedBooks}
         <div><button onClick={this.addBook.bind(this)}>Add New</button></div>
       </div>

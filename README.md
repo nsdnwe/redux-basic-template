@@ -1,5 +1,5 @@
 # redux-basic-template
-Simple Redux template, including
+Simple Redux template, including:
 
 * React
 * Webpack 
