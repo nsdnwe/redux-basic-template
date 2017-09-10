@@ -1,7 +1,7 @@
 {
   "name": "react-webpack-babel",
-  "version": "0.0.3",
-  "description": "React Webpack Babel Starter Kit",
+  "version": "0.0.4",
+  "description": "Redux Basic Template",
   "main": "''",
   "scripts": {
     "build": "webpack --config webpack.production.config.js --progress --profile --colors",
@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alicoding/react-webpack-babel"
+    "url": "https://github.com/nsdnwe/redux-basic-template"
   },
-  "author": "Ali Al Dallal",
+  "author": "Niko Wessman",
   "license": "MIT",
-  "homepage": "https://github.com/alicoding/react-webpack-babel#readme",
+  "homepage": "http://www.nsd.fi",
   "dependencies": {
     "babel-plugin-transform-decorators": "^6.13.0",
     "bootstrap": "^4.0.0-alpha.3",

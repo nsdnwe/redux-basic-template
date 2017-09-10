@@ -14,7 +14,7 @@ Simple Redux template, including:
 
 ### To run
 
-* You'll need to have [git](https://git-scm.com/) and [node](https://nodejs.org/en/) installed in your system.
+* You'll need to have [git](https://git-scm.com/) and the **latest version** of [node](https://nodejs.org/en/) installed in your system.
 * Fork and clone the project:
 
 ```
